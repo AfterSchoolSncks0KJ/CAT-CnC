@@ -45,7 +45,7 @@ Run These Commands Below
 apt install screen
 
 chmod 777 *
-sudo screen ./main
+sudo screen ./AURA
 
 Connect Using "SSH"
 
