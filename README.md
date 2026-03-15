@@ -1,4 +1,4 @@
-# Aura-CNC V1.9
+# Aura-CNC V2.1
 A CNC made by me
 
 # Setupguide
