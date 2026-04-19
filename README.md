@@ -18,7 +18,7 @@ This repository includes an automated setup script to simplify installation and 
 
 Before you begin, make sure you have:
 
--A Brain
+- A Brain
 - A VPS or dedicated server
 - Ubuntu 24.04
 - `sudo` privileges
