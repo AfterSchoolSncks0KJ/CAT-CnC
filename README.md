@@ -1,4 +1,4 @@
-# Aura-CNC V2.2
+# Aura-CNC V2.3
 
 > Custom CNC project with automated Ubuntu 24.04 server setup.
 
