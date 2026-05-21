@@ -1,10 +1,10 @@
-# Aura-CNC V2.3
+# Aura-CNC V2.5
 
 > Custom CNC project with automated Ubuntu 24.04 server setup.
 
 ## Overview
 
-Aura-CNC V2.2 is a custom CNC project designed to run on Ubuntu 24.04.  
+Aura-CNC V2.5 is a custom CNC project designed to run on Ubuntu 24.04
 This repository includes an automated setup script to simplify installation and deployment.
 
 ## Features
