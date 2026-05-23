@@ -1,4 +1,4 @@
-# Aura-CNC V2.5
+#  CAT-CnC v2.5
 
 > Custom CNC project with automated Ubuntu 24.04 server setup.
 
@@ -31,6 +31,6 @@ Before you begin, make sure you have:
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install git -y
-git clone https://github.com/AfterSchoolSncks0KJ/Aura-CNC.git
-cd Aura-CNC
+git clone https://github.com/AfterSchoolSncks0KJ/CAT-CnC.git
+cd CAT-CnC
 sudo bash setup.sh
