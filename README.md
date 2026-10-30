@@ -19,7 +19,7 @@ This repository includes an automated setup script to simplify installation and 
 Before you begin, make sure you have:
 
 - A Brain
-- A VPS or dedicated server
+- A VPS or dedicated server min 1 core 2gb ram
 - Ubuntu 24.04
 - `sudo` privileges
 - Basic Linux command-line knowledge
